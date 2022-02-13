@@ -21,8 +21,6 @@ function Detail() {
   }, []);
   return (
     <div>
-      <div>{console.log("check3", details.id)}</div>
-      <div>{console.log("check3", details)}</div>
       {loading ? (
         <h1>Loading</h1>
       ) : (
